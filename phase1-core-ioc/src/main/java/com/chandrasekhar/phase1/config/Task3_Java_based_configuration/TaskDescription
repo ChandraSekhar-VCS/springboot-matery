@@ -1,0 +1,10 @@
+ Task 3: Java-based Configuration with @Bean and @Configuration
+
+📂 Create:
+    GreetingService and TimeService as plain classes (no annotations)
+    Create AppConfig.java and define both beans manually using @Bean
+
+📌 Instructions:
+    Inject TimeService into GreetingService via the config class
+    Load using AnnotationConfigApplicationContext
+    Fetch and use the GreetingService bean

@@ -1,0 +1,12 @@
+ask 2: Annotation-based Configuration (Modern Style)
+
+📂 Create:
+    GreetingService
+    TimeService
+    Use @Component to annotate both
+    GreetingService should use @Autowired to inject TimeService
+
+📌 Instructions:
+    Set up a config class with @ComponentScan
+    Load using AnnotationConfigApplicationContext
+    Call and print from a method inside GreetingService

@@ -1,0 +1,8 @@
+Task 1: XML-based Bean Configuration (Legacy Style)
+📂 Create:/phase1-core-ioc/src/main/resources/applicationContext.xml
+
+📌 Instructions:
+    Define two classes: GreetingService and TimeService
+    GreetingService should depend on TimeService
+    Configure both beans in applicationContext.xml using <bean> tags
+    Use ClassPathXmlApplicationContext to load and call a method from GreetingService
