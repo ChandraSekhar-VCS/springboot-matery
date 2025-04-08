@@ -1,0 +1,8 @@
+✅ Task 1: Demonstrate full bean lifecycle with @PostConstruct and @PreDestroy
+Goal: Show initialization and destruction hooks using annotations.
+
+Instructions:
+    Create a bean named LifeCycleBean.
+    Use @PostConstruct and @PreDestroy to print messages during lifecycle phases.
+    Configure the bean in a class annotated with @Configuration.
+    Use AnnotationConfigApplicationContext and explicitly call context.close().

@@ -1,0 +1,18 @@
+📌 Objective
+Demonstrate how to define initialization and destruction logic using InitializingBean and DisposableBean interfaces provided by Spring.
+
+✅ What to Implement
+    A class LifecycleInterfaceBean that:
+    Implements InitializingBean and overrides afterPropertiesSet().
+    Implements DisposableBean and overrides destroy().
+    A configuration class AppConfig with @ComponentScan.
+    A Main class that:
+    Loads the Spring context.
+    Retrieves the bean.
+    Registers shutdown hook for triggering destroy.
+
+🧾 Minimal Instructions
+    Implement LifecycleInterfaceBean with proper console printouts in each lifecycle method.
+    Annotate with @Component and ensure it’s discovered by component scan.
+    Use AnnotationConfigApplicationContext to bootstrap.
+    Make sure to call registerShutdownHook() to invoke destroy() automatically.
