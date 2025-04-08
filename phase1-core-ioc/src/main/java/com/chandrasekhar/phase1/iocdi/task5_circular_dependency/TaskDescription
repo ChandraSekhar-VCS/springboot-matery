@@ -1,0 +1,12 @@
+TASK 5: Bonus – Circular Dependency Simulation
+
+Goal: Simulate a circular dependency and resolve it
+
+Instructions:
+    Create ClassA and ClassB, both with circular @Autowired fields
+    Observe the exception
+    Resolve it using @Lazy or redesign
+
+Expectation:
+    Learn how Spring handles circular dependencies
+    Learn to break dependency cycles

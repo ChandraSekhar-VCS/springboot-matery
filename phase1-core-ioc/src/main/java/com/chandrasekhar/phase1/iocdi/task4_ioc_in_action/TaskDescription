@@ -1,0 +1,12 @@
+TASK 4: IoC Principle in Action
+
+Goal: Show how Spring IoC handles dependency creation, vs traditional approach
+
+Instructions:
+    Implement a traditional Java class: TraditionalOrderService that creates PaymentService manually via new
+    Then create a Spring-managed version: ModernOrderService where PaymentService is injected
+    Log the difference in design and testability in your own notes
+
+Expectation:
+    Reflect on what IoC simplifies
+    Compare the two approaches in code

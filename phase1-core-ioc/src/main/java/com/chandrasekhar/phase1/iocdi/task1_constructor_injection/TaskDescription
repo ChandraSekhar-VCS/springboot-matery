@@ -1,0 +1,12 @@
+TASK 1: Constructor Injection – Core Concept
+
+Goal: Implement a basic service that gets a dependency via constructor injection.
+
+Instructions:
+    Create NotificationService – with a method send(String msg)
+    Create UserService – inject NotificationService via constructor
+    Call userService.notifyUser("Account created") from main
+
+Expectation:
+    Understand constructor wiring
+    Observe output and control flow

@@ -1,0 +1,12 @@
+TASK 2: Setter Injection – Optional Dependency
+
+Goal: Use setter injection for an optional service.
+
+Instructions:
+    Create LoggingService with method log(String msg)
+    Create AdminService and inject LoggingService via setter
+    Call adminService.performAdminTask() – it should optionally log
+
+Expectation:
+    Practice setter-based injection
+    Null-check inside service (optional dep handling)

@@ -1,0 +1,12 @@
+TASK 3: Field Injection – For Demonstration
+
+Goal: Use field injection (not recommended but for learning)
+
+Instructions:
+    Create AnalyticsService with method trackEvent(String event)
+    Create ReportService and inject AnalyticsService using field
+    Call reportService.generateReport() from main
+
+Expectation:
+    Observe how field injection works
+    Understand why it's harder to test or refactor
