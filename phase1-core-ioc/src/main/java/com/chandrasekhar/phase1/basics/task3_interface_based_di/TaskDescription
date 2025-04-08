@@ -1,0 +1,15 @@
+Task 3: Interface-Based DI with Spring
+
+🎯 Objective:Move toward interface-based design and flexible dependency injection.
+
+📌 Instructions:
+
+    Create an interface INotificationService under a service subpackage
+    Implement it in EmailNotificationService (annotated with @Component)
+    Update UserService to depend on INotificationService (via constructor)
+    Use Spring to wire everything as in Task 2
+    Add AppConfig and Main as before
+
+🔒 Constraint:
+    Use only interface type in UserService constructor. No direct class usage.
+

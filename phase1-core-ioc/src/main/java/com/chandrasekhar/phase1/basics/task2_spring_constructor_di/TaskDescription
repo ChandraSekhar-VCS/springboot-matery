@@ -1,0 +1,13 @@
+Task 2: Spring-Based Constructor DI
+
+🎯 Objective:Experience Spring’s Inversion of Control through constructor injection.
+
+📌 Instructions:
+
+    Annotate NotificationService and UserService with @Component
+    Inject NotificationService into UserService using constructor injection
+    Define a Main class using AnnotationConfigApplicationContext to bootstrap
+    Add an empty @Configuration class (name it AppConfig)
+
+🔒 Constraints:
+    No XML. No manual new. Spring must manage all dependencies.

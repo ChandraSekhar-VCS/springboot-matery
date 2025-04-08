@@ -1,0 +1,21 @@
+Hands-On Task 1: Without Spring (Tight Coupling)
+
+Objective: Internalize the pain of tight coupling
+
+Task:Create the following classes:
+
+    NotificationService: has a method void send(String message)
+    UserService: has a method void registerUser(String username) which:
+    Prints "User registered: <username>"
+    Sends "Welcome <username>" via NotificationService
+
+🔒 Constraints:
+
+    Create the NotificationService object inside UserService
+    No interfaces or DI
+    Run and observe
+
+📌 What You Should Feel:
+
+    Tightly coupled
+    Difficult to replace NotificationService or test independently
