@@ -1,0 +1,20 @@
+Task 1: Bean Scopes – Singleton vs Prototype
+
+📌 Goal: Understand how bean scopes affect object instantiation in the Spring container.
+
+🧾 Instructions
+    Create two beans:
+    One should be @Scope("singleton")
+    One should be @Scope("prototype")
+    Assign each bean a random UUID during construction.
+    In your main class, retrieve each bean twice and print the UUID.
+
+Observe and verify:
+    Are the UUIDs same or different for each type?
+    What does that indicate about the scope?
+
+💡 Hints:
+    Use @Component to register beans.
+    Use @Scope("singleton") and @Scope("prototype").
+    Use UUID.randomUUID() to track unique identity.
+    Use AnnotationConfigApplicationContext to bootstrap.
